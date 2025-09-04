@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="first">
+        <div class="navbar">
+            <div class="logo">
+            <a href="#">'BoutHG !</a></div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="links mobile-nav">
+                <a href="#"><li class="all">Home</li></a>
+                <a href="#about"><li class="all">About</li></a>
+                <a href="#" id="contact-btn"><li class="all">Contact</li></a>
+                <a href="#"><li class="fed" id="fed">Feedback</li></a>
+            </ul>
+        </div>
+    <div class="my">
+        <h1 class="h">Hello, My Name is Hritik<br><p>Web Developer | Designer</p></h1>
+    </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Yo Scroll Down see !</span>
+        <div class="scroll-arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="section-connector"></div>
+
+
+
+
+
+
+
+
+<!----------------------------------------------------------ABOUT----------------------------------------------->
+
+
+
+
+
+
+
+
+<div id="about">
+    <div class="pics">
+        <img src="images/me.jpg" alt="Me">
+    <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hi, what’s up? I’m a first-year student at SRM KTR, and I’m super passionate about web development and programming. Ever since I got into coding, it’s been my go-to things.</p>
+        <p>I’m always trying out new stuff . Whether it’s designing a cool website front-end or figuring out how to make the back-end work seamlessly, I enjoy every bit of it. Right now, I’m working towards becoming a full-stack developer.</p>
+        <div class="about-skills">
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">UI/UX Design</div>
+            <div class="skill-item">Responsive Design</div>
+            <div class="skill-item">Web Development</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">C</div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<!-------------------------------------------FEEDBACK----------------------------------------------->
+
+
+
+
+<div class="popup-overlay" id="feedbackPopup">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h3>Send Feedback</h3>
+            <button class="close-popup">&times;</button>
+        </div>
+        <form class="feedback-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Feedback" required></textarea>
+            </div>
+            <button type="submit" class="submit-feedback">Thnx mate for your feedback</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-------------------------------------------contact-form------------------------------------------>
+
+<!-- Contact Popup -->
+
+
+
+<div class="popup-overlay" id="contactPopup">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h3>Contact Me</h3>
+            <button class="close-popup">&times;</button>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" id="contact-name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="contact-email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="contact-subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea id="contact-message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-contact">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
