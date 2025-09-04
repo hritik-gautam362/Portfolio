@@ -10,10 +10,4 @@ A personal portfolio website to showcase my **projects, skills, achievements, an
 
 ## 🛠️ Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Hosting:** GitHub Pages  
-
-## 🌐 Live Website  
-👉 [Visit Portfolio](https://yourusername.github.io/)  
-
-## 📸 Preview  
-*(Add a screenshot of your homepage here)*  
+- **Hosting:** GitHub Pages 
